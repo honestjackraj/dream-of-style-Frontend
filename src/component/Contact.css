@@ -1,0 +1,31 @@
+.cont-homeabu{
+    height: 900px;
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+.cont-home-lik{
+    padding-left: 650px;
+   color: black;
+  
+   text-decoration: none;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+ }
+ .cont-about-lik{
+     
+   color: black;
+   text-decoration: none;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+   
+ }
+ .cont-head{
+    padding: 25px 0px 0px 630px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}

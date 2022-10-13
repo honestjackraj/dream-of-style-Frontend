@@ -1,0 +1,100 @@
+.register-bg{
+    width: 100%;
+    position: absolute;
+  
+    background-color: rgb(219, 226, 226);
+    
+  }
+  .register-full{
+    height: 50rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+   
+  }
+  .register-container{
+    position: absolute;
+    margin: 60px 0px 0px 100px;
+    width: 1000px;
+  }
+  .register-row{
+    height: 600px;
+    margin: 0px -150px 0px 0px;
+  
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+  }
+  .register-image{
+    border-radius: 30px 0px 0px 30px;
+    margin: -0px 5px 0px -27px;
+    height: 600px;
+    position: absolute;
+  }
+  .register-name{
+    font-weight: bold;
+    margin-right: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .register-form{
+    padding: 90px 0px 0px 100px;
+  }
+  .regis-form-control{
+    width: 350px;
+    height: 35px;
+    margin: 20px 0px 8px 0px;
+    padding: 0px 5px 0px 30px;
+  }
+  .register-btn1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 108%;
+  
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .register-btn1:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+  }
+  .RETURNING-CUSTOMERS{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  .register-do-not-acc{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  .register-rigister{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    padding-left: 130px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .rigister-footer{
+    position: absolute;
+  margin: 800px 0px 0px 0px;
+  }
+  /* .register-social1 {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+  }
+  .register-social2 {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+  } */
+  

@@ -1,0 +1,30 @@
+/* .detail-uper-foter{
+    position: relative;
+  } */
+.uperfoter-image {
+  width: 100%;
+  height: 600px;
+  margin: 0px 0px 0px 0px;
+}
+
+.detail-learn-butto2 {
+  margin: 0px 0px 50px 600px;
+  font-weight: bold;
+}
+.detail-para-tag {
+  font: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.details-card-tit {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.detail-imge-upcard {
+  margin: -602px 0px 0px -12px;
+
+  color: black;
+  font-weight: bold;
+}
+.detail-learn-button {
+  font-weight: bold;
+}

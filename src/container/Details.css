@@ -1,0 +1,182 @@
+.details-bg {
+  width: 100%;
+  /* position: absolute; */
+
+  background-color: white;
+}
+.details-full {
+  height: 100%;
+  width: 100%;
+  /* position: relative; */
+}
+.details-container {
+  /* position: absolute; */
+  margin: -120px 0px 0px 100px;
+  width: 1000px;
+  height: 800px;
+}
+.details-row {
+  height: 750px;
+  margin: 50px -290px 60px 0px;
+  background-color: white;
+
+  box-shadow: 12px 12px 22px grey;
+}
+.details-image {
+  border-radius: 3px 0px 0px 3px;
+  margin: -10px 0px 0px -47px;
+  padding: 10px 0px 10px 0px;
+  height: 773px;
+  position: absolute;
+}
+
+.details-form {
+  padding: 30px 0px 0px 40px;
+}
+
+.detail-brand-name {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 500px;
+  font-size: 4rem;
+  padding-bottom: 100px;
+  margin-top: 60px;
+}
+.detail-dress-name {
+  font-size: bold;
+  font-size: 3rem;
+  /* letter-spacing: .1em; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.detail-rate {
+  font-size: 43px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.detail-pra-tag {
+  font: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.detail-size {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.detail-para-tag {
+  font: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.detail-para-tag-sdark {
+  font-size: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.detail-size-butall {
+  display: flex;
+  padding: 2px;
+  margin: 10px;
+}
+
+.detail-size-bottN1 {
+  display: flex;
+  color: black;
+  size: 80px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 5%;
+}
+
+.detail-size-bottN1:hover {
+  background-color: black;
+  color: white;
+}
+.detail-size-bottN2 {
+  display: flex;
+  color: black;
+  size: 80px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 5%;
+}
+
+.detail-size-bottN2:hover {
+  background-color: black;
+  color: white;
+}
+.detail-size-bottN3 {
+  display: flex;
+  color: black;
+  size: 80px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 5%;
+}
+
+.detail-size-bottN3:hover {
+  background-color: black;
+  color: white;
+}
+.detail-size-bottN4 {
+  display: flex;
+  color: black;
+  size: 80px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 5%;
+}
+
+.detail-size-bottN4:hover {
+  background-color: black;
+  color: white;
+}
+.detail-size-bottN5 {
+  display: flex;
+  color: black;
+  size: 80px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 5%;
+}
+
+.detail-size-bottN5:hover {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.detail-addcart-bn {
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.detail-addcart-bn:hover {
+  background-color: white;
+  color: black;
+  font-size: large;
+}
+
+.detail-buycard-desing {
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  cursor: pointer;
+}
+
+.detail-buycard-desing:hover {
+  background-color: black;
+  color: white;
+}
+
+.detail-footer {
+  /* position: relative; */
+  margin: 273px 0px 0px 0px;
+}

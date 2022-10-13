@@ -1,0 +1,47 @@
+.about-homeabu {
+  /* padding: 0px 0px 0px 700px; */
+}
+.about-homeabu{
+    height: 900px;
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+.abt-home-lik {
+   padding-left: 650px;
+  color: black;
+ 
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.abt-about-lik {
+    
+  color: black;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.about-haad{
+    padding: 25px 0px 0px 630px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.pcon1{
+    font-weight: bold;
+    font-size: 19px;
+    padding: 25px 250px 0px 250px;
+}
+.about-imfoter{
+    margin: -790px 0px 0px 0px;
+}
+.detail-foot-backimg{
+    height: fit-content;
+}
+
+

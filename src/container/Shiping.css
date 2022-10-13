@@ -1,0 +1,128 @@
+.shiping-image {
+  width: 100%;
+}
+.shiping-form-full {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 12px 12px 22px grey;
+  height: 800px;
+  width: 100%;
+}
+.ship-left-ci {
+  font-weight: bold;
+  padding: 50px 0px 0px 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* margin: 60px 50px 0px px; */
+}
+.ship-form-EMPN {
+  text-indent: 10px;
+  height: 45px;
+  width: 85%;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+.ship-check1 {
+  font-weight: bold;
+}
+
+.ship-form-name {
+  height: 50px;
+  font-size: 16px;
+  color: black;
+  font-style: 16px;
+  font-weight: bold;
+}
+.ship-form-firstname {
+  position: relative;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  text-indent: 10px;
+  margin: 0px 0px 0px 0px;
+  width: 250px;
+}
+.ship-form-lastname {
+  margin: 0px 0px 0px 40px;
+  width: 250px;
+  position: relative;
+  line-height: 40px;
+  text-indent: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.ship-form-city {
+  margin: 30px 0px 0px 0px;
+  width: 170px;
+  position: relative;
+  line-height: 40px;
+  text-indent: 10px;
+  font-weight: bold;
+
+  font-size: 16px;
+}
+.ship-form-pincode {
+  position: absolute;
+  margin: -62px 0px 0px 375px;
+  width: 170px;
+
+  line-height: 40px;
+  text-indent: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.ship-form-state {
+  position: absolute;
+  margin: -46px 0px 0px 190px;
+  width: 170px;
+  height: 45px;
+  font-weight: bold;
+
+  line-height: 40px;
+  text-indent: 10px;
+
+  font-size: 16px;
+}
+.ship-form-phone {
+  margin: -0px 0px 0px 0px;
+  width: 546px;
+  height: 45px;
+  font-weight: bold;
+
+  line-height: 40px;
+  text-indent: 10px;
+
+  font-size: 16px;
+}
+.ship-form-Address {
+  margin: 20px 0px 0px 0px;
+  width: 546px;
+  height: 45px;
+  font-weight: bold;
+
+  line-height: 40px;
+  text-indent: 10px;
+
+  font-size: 16px;
+}
+.ship-form-okbtn {
+  margin: 0px 0px 0px 348px;
+  width: 200px;
+  border-radius: 6px;
+  position: relative;
+  line-height: 40px;
+  text-indent: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+.ship-form-okbtn:hover {
+  background-color: aliceblue;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.shiping-footer {
+  width: 100%;
+}

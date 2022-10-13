@@ -1,0 +1,14 @@
+.total-carosal{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.total-carosal{
+    object-fit: cover;
+    object-position: center;
+  
+
+}
+.caro-image-siz{
+    height: 500px;
+}

@@ -1,0 +1,96 @@
+/* .d-block {
+  width: 100%;
+  max-height: 50%;
+} */
+.carosal-after {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 610px;
+}
+.carosal-after-p {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.home-insta-button:hover{
+ background-color: black;
+ color: white;
+  
+
+}
+.home-insta-button {
+  margin: 0px 0px 0px 42%;
+  height: 50px;
+  border-radius: 6px;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.carosal-after-heading2 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 560px;
+  padding-top: 20px;
+}
+.brand-name{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  padding-left: 500px;
+  /* margin: -570px 0px 0px 0px; */
+
+}
+
+.home-second-heading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 600px;
+}
+
+.VIEW-all-b{
+  margin: 6px 0px 0px 45%;
+  height: 40px;
+  width: 130px;
+  border-radius: 6px;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: var(--buttonRadius);
+  color: #fff;
+  color: var(--colorBtnPrimaryText);
+  background: #111111;
+  background: var(--colorBtnPrimary);
+
+}
+.VIEW-all-b:hover{
+  background-color: grey;
+  color:black;
+}
+
+
+.smallprocss{
+  margin-top: 300px;
+  margin-bottom: 250px;
+}
+
+.LAST-heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 450px;
+  margin-bottom: 150px;
+}
+
+
+ 
