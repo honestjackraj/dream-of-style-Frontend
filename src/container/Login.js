@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import Navigation from "../component/Navigation";
 import axios from 'axios';
 import { useHistory } from "react-router-dom";
-
-// import { FaGoogle } from 'react-icons/fa';
-// import { FaFacebookF } from 'react-icons/fa';
 import "../container/Login.css";
 import Footer from "../component/Footer";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 
 
@@ -36,6 +37,10 @@ function Login() {
 
 		}
 
+	}
+
+	const diffToast =()=> {
+		toast("Wow so easy!");
 	}
 
 	return (
@@ -79,9 +84,10 @@ function Login() {
 									<div className="from-row">
 										<div className="col-lg-7">
 											<button type="submit" 
-											className="login-btn1">SIGN IN</button>
+											className="login-btn1" onClick={diffToast}>SIGN IN</button>
 										</div>
 									</div>
+									<ToastContainer />
 
 									<p className="log-do-not-acc">Don't have an account? </p>
 									<Link to="/Register" className="log-rigister"> Create account</Link>

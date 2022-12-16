@@ -58,7 +58,7 @@ h1.homecard-heading1{
 } */
 
 
-.home {
+.pdhome {
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -66,10 +66,10 @@ h1.homecard-heading1{
     /* max-width: 1500px; */
    
   }
-  .home__row {
+  .pdhome__row {
     /* display: inline-block; */
     margin-top:40rem;
-    height: 1000px;
+    height: 1300px;
 
     display: grid;
     align-items: baseline;

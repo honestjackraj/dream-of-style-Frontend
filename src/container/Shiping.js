@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Link } from "react-router-dom";
 import "../container/Shiping.css"
 import Footer from "../component/Footer";
 import StripeCheckout from "react-stripe-checkout";
@@ -24,7 +23,9 @@ function Shiping() {
         console.log(token);
       }
 
-      const notify = () => toast("Wow so easy!");
+      const diffToast =()=> {
+		toast("Wow so easy!");
+	}
     return (
 
         <>
@@ -94,9 +95,9 @@ function Shiping() {
                          
                           
                             <StripeCheckout 
-                             onClick={notify}
+                            
                          name="WELCOME AGAIN"
-                         token={buy}
+                         token={buy}onClick={diffToast}
                          stripeKey="pk_test_51LzhraSJY7LJMYKPippgJnk6WaafDvHj8swzOVNwosxxFS0Zwr3XY4VJJogwCpIEmpqnnOLziV3uJXij86kdKrEb00hH92lJ5U"
                          
                      />
@@ -111,7 +112,7 @@ function Shiping() {
                         <div class="col-6">
 
                         <div className="col-lg-5">
-								<img src="./image/ship/ship.jpg" className="img-fluid shipimage" alt="shipimage" />
+								<img src="./image/ship/ship page.jpg" className="img-fluid shipimage" alt="shipimage" />
 
 							</div>
                         

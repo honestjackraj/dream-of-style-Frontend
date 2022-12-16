@@ -20,6 +20,8 @@ function Routing() {
 
       {/* <Route path="/" component={Home}/>
        <Route path="*" component={Login}/> */}
+
+       
       <Route exact path="/" component={Login} />
       <Route  path="/login" component={Login} />
 

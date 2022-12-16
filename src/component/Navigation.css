@@ -1,6 +1,12 @@
 .navbar-brand {
   color: black;
   font-weight: bold;
+  
+}
+.navbar{
+ 
+  width: 100%;
+  position:sticky;
 }
 .nav-1stbar {
   color: white;

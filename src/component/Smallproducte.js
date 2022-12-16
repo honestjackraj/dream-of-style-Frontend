@@ -34,9 +34,9 @@ function Smallproducte ()  {
 return (
     <>
 
-<div className="home">
-    <div className="home__container">
-    <div className="home__row">
+<div className="smhome">
+    <div className="smhome__container">
+    <div className="smhome__row">
     
       {data.map((item) => {
         return (

@@ -67,16 +67,20 @@ function Home() {
                 </h2>
                 <p className="carosal-after-p">(n.) (brand) (revolution) A thoughtful reflection of what the label stands for. A strategic amalgamation of two common words, ["DREAM"(ue); a turning force/power + "STYLE"; to wear]. Torqadorn exudes every ounce of "Power Dressing" as we know it by creating designs which mirror the essence of the young, confident and independent woman of today.</p>
             </div>
-            <button className="home-insta-button">#instagram page</button>
+            <button    className="home-insta-button">#instagram page</button>
+
+           
+               
+
             <br />
             <h2 className="carosal-after-heading2">SHOP BY OCCASION</h2>
 
 
-
+              <div className="hoprd">
             <Producte />
+            </div>
 
-
-            <div>
+            <div className="home-second-heading1">
                 <h1 className="home-second-heading">SHOP BY STYLE </h1>
                 <Link to={{ pathname: "/Category", }}>
                     <button className="VIEW-all-b" >

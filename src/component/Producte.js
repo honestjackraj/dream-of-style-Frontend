@@ -47,9 +47,9 @@ function Producte() {
          </div>
          </div>
          </div> */}
-          <div className=" home">
-        <div className="  home__container">
-        <div className="home__row">
+          <div className=" pdhome">
+        <div className="  pdhome__container">
+        <div className="pdhome__row">
         
           {data.map((item) => {
             return <Card detail={item}/>;
