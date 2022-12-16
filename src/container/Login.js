@@ -70,7 +70,7 @@ function Login() {
 											<input type="password" 
 											name="password"
 										 onChange={handlechange}
-											placeholder="******"
+											placeholder="Password"
 											 className="log-form-control" />
 
 										</div>

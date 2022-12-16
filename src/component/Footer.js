@@ -9,7 +9,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
     return (
-        <div>
+        <div className="footer">
 
             <div class="row primary bg-dark footer-row">
                 <div class="column about footer-col">

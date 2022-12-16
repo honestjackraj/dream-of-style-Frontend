@@ -44,7 +44,7 @@ return (
             <div className="SMALLPRODUCTS">
             <div className="SMPBOX">
                 <img className="smallproducte-size" src={item.image} alt="image"/>
-                <Link to={{pathname:"/details",buycard:item}}>
+                <Link to={{pathname:"/Details",data:item}}>
                 <button className="SMALL-P-B" >
                     SHOP NOW
                 </button>

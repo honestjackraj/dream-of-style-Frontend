@@ -2,9 +2,29 @@ import React from 'react'
 // import { Link } from "react-router-dom";
 import "../container/Shiping.css"
 import Footer from "../component/Footer";
+import StripeCheckout from "react-stripe-checkout";
+// import Swal from 'sweetalert2';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+// Swal.fire(
+//     'Good job!',
+//     'You clicked the button!',
+//     'success'
+// )
+
 
 
 function Shiping() {
+
+
+    const buy = (token)=>{
+        console.log(token);
+      }
+
+      const notify = () => toast("Wow so easy!");
     return (
 
         <>
@@ -70,9 +90,17 @@ function Shiping() {
                                 </label>
                             </div>
 
-                            <button className='ship-form-okbtn'>Continue to shipping</button>
-
-
+                            {/* <button className='ship-form-okbtn'>Continue to shipping</button> */}
+                         
+                          
+                            <StripeCheckout 
+                             onClick={notify}
+                         name="WELCOME AGAIN"
+                         token={buy}
+                         stripeKey="pk_test_51LzhraSJY7LJMYKPippgJnk6WaafDvHj8swzOVNwosxxFS0Zwr3XY4VJJogwCpIEmpqnnOLziV3uJXij86kdKrEb00hH92lJ5U"
+                         
+                     />
+                       <ToastContainer />
 
                         </div>
 
@@ -80,8 +108,12 @@ function Shiping() {
 
 
 
-                        <div class="col-6">.col-6
-                        
+                        <div class="col-6">
+
+                        <div className="col-lg-5">
+								<img src="./image/ship/ship.jpg" className="img-fluid shipimage" alt="shipimage" />
+
+							</div>
                         
                         </div>
                     </div>

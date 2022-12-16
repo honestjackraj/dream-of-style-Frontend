@@ -5,7 +5,7 @@ import Producte from "../component/Producte";
 import Navigation from "../component/Navigation";
 import Carousel from "../component/Carousel";
 import Smallproducte from "../component/Smallproducte";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 // import Video from "../../public/video/demovideo.webm";
 
@@ -17,6 +17,7 @@ import {Link} from "react-router-dom"
 function Home() {
     return (
         <>
+        <div className="homeheight">
             <Navigation />
             <Carousel />
 
@@ -69,31 +70,36 @@ function Home() {
             <button className="home-insta-button">#instagram page</button>
             <br />
             <h2 className="carosal-after-heading2">SHOP BY OCCASION</h2>
-         
-          <Producte/>
-          <div>
-          <h1 className="home-second-heading">SHOP BY STYLE </h1>
-          <Link to={{pathname:"/Category",}}>
+
+
+
+            <Producte />
+
+
+            <div>
+                <h1 className="home-second-heading">SHOP BY STYLE </h1>
+                <Link to={{ pathname: "/Category", }}>
                     <button className="VIEW-all-b" >
-                       VIEW ALL
+                        VIEW ALL
 
                     </button>
-                    </Link>
-          
-          </div>
+                </Link>
 
-          <div className="smallprocss" >
-          <Smallproducte/>
-          </div>
+            </div>
 
-          <h1 className="LAST-heading" >DREAMS Now Also Retailing through :</h1>
 
-          
+            <div className="smallprocss" >
+                <Smallproducte />
+            </div>
+
+            <h1 className="LAST-heading" >DREAMS Now Also Retailing through :</h1>
+
+
 
 
             <Footer />
 
-
+            </div>
 
         </>
     );

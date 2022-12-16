@@ -29,7 +29,7 @@ function Register() {
 		e.preventDefault();
 		try {
 			await axios.post("http://localhost:5000/auth/register", user);
-			navigation.push("/login");
+			navigation.push("/");
 		} catch (error) {
 			console.log(error);
 
@@ -84,7 +84,9 @@ function Register() {
 													name="email"
 
 													onChange={handlechange}
+													placeholder="Contact Number"
 
+													
 													className="log-form-control" />
 
 											</div>
@@ -95,11 +97,10 @@ function Register() {
 												<input type="password"
 													name="password"
 													onChange={handlechange}
-													placeholder="******"
+													placeholder="Creat Password"
 													className="regis-form-control" />
 
 											</div>
-
 										</div>
 										<div className="from-row">
 											<div className="col-lg-7">

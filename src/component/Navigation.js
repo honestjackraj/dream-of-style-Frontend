@@ -4,10 +4,23 @@ import {FaUser } from 'react-icons/fa';
 import { FaHeart } from 'react-icons/fa';
 import {FaShoppingCart} from 'react-icons/fa';
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { WindowSharp } from "@mui/icons-material";
+import {useHistory}from "react-router-dom";
 
 
 
 export default function Navigation() {
+
+  const  quantity = useSelector(state=>state.cart.quantity)
+ 
+ const history =useHistory()
+  const handellogout=()=>{ 
+     localStorage.removeItem("auth")
+    //  window.location.reload()
+     history.push("/login")
+  }
+
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark bg-#2c333d ">
@@ -31,13 +44,13 @@ export default function Navigation() {
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active nav-contant1" aria-current="page" to="/Home">Home</Link>
+          <Link className="nav-link active nav-contant1" aria-current="page" to="">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active nav-contant2" aria-current="page" to="About">About</Link>
+          <Link className="nav-link active nav-contant2" aria-current="page" to="">About</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active nav-contant3" aria-current="page" to="Contact">Contact</Link>
+          <Link className="nav-link active nav-contant3" aria-current="page" to="">Contact</Link>
         </li>
       
       </ul>
@@ -45,7 +58,12 @@ export default function Navigation() {
       <div className="nav-icons">
           <Link to="/Login" > <FaUser  className="nav-icon1"/></Link> 
             <FaHeart className="nav-icon2"/>
-            <FaShoppingCart  className="nav-icon3"/>
+            
+            
+                        <button className="logoutbtn" onClick={handellogout}>Logout</button>
+
+            {/* <h4>cart{quantity}</h4> */}
+            {/* <FaShoppingCart  className="nav-icon3"/> */}
       </div>
     </div>
   </div>
