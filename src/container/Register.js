@@ -84,7 +84,7 @@ function Register() {
 													name="email"
 
 													onChange={handlechange}
-													placeholder="creat mail,Id"
+													placeholder="EMAIL"
 
 													
 													className="log-form-control" />
