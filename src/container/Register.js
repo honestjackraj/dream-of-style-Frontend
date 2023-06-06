@@ -6,12 +6,13 @@ import Footer from "../component/Footer";
 // import { FaFacebookF } from 'react-icons/fa';
 import "../container/Register.css";
 import axios from 'axios';
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 
 
 function Register() {
-	const navigation = useHistory();
+	const navigation = useNavigate();
 	const [user, setUser] = useState({
 		firstname: "",
 		lastname: "",
@@ -28,8 +29,8 @@ function Register() {
 	const handelsubmit = async (e) => {
 		e.preventDefault();
 		try {
-			await axios.post("https://dream-shoping-backend.onrender.com/auth/register", user);
-			navigation.push("/");
+			await axios.post("https://dream-shoping-backend.onrender.com/auth/register", user).then(()=> navigation("/"));
+			
 		} catch (error) {
 			console.log(error);
 
