@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useHistory } from "react-router-dom";
 import "../container/Login.css";
 import Footer from "../component/Footer";
-import { ToastContainer, toast } from 'react-toastify';
+// import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -29,7 +29,7 @@ function Login() {
 	
 
 		try {
-			const res = await axios.post("http://localhost:5000/auth/login", user);
+			const res = await axios.post("https://shoping-backend-api.onrender.com/auth/login", user);
 	        localStorage.setItem("auth",JSON.stringify(res.data));
 			navigation.push("/home")
 		} catch (error) {
@@ -39,9 +39,9 @@ function Login() {
 
 	}
 
-	const diffToast =()=> {
-		toast("Wow so easy!");
-	}
+	// const diffToast =()=> {
+	// 	toast("Wow so easy!");
+	// }
 
 	return (
 		<>
@@ -84,10 +84,10 @@ function Login() {
 									<div className="from-row">
 										<div className="col-lg-7">
 											<button type="submit" 
-											className="login-btn1" onClick={diffToast}>SIGN IN</button>
+											className="login-btn1" >SIGN IN</button>
 										</div>
 									</div>
-									<ToastContainer />
+									{/* <ToastContainer /> */}
 
 									<p className="log-do-not-acc">Don't have an account? </p>
 									<Link to="/Register" className="log-rigister"> Create account</Link>

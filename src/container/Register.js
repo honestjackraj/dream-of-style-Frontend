@@ -28,7 +28,7 @@ function Register() {
 	const handelsubmit = async (e) => {
 		e.preventDefault();
 		try {
-			await axios.post("http://localhost:5000/auth/register", user);
+			await axios.post("https://shoping-backend-api.onrender.com/auth/register", user);
 			navigation.push("/");
 		} catch (error) {
 			console.log(error);
@@ -84,7 +84,7 @@ function Register() {
 													name="email"
 
 													onChange={handlechange}
-													placeholder="Contact Number"
+													placeholder="creat mail,Id"
 
 													
 													className="log-form-control" />
