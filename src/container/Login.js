@@ -29,7 +29,7 @@ function Login() {
 	
 
 		try {
-			const res = await axios.post("https://shoping-backend-api.onrender.com/auth/login", user);
+			const res = await axios.post("https://dream-shoping-backend.onrender.com/auth/login", user);
 	        localStorage.setItem("auth",JSON.stringify(res.data));
 			navigation.push("/home")
 		} catch (error) {

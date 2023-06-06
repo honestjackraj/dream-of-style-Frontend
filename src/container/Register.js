@@ -28,7 +28,7 @@ function Register() {
 	const handelsubmit = async (e) => {
 		e.preventDefault();
 		try {
-			await axios.post("https://shoping-backend-api.onrender.com/auth/register", user);
+			await axios.post("https://dream-shoping-backend.onrender.com/auth/register", user);
 			navigation.push("/");
 		} catch (error) {
 			console.log(error);
